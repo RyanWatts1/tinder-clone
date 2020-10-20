@@ -6,9 +6,10 @@ import ForumIcon from '@material-ui/icons/Forum';
 function Header() {
     return (
         <div className="header">
-            <PersonIcon/>
-            <img src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png" alt="tinder logo"/>
-            <ForumIcon/>
+            <PersonIcon className="header__icon" fontSize="large"/>
+            <img className="header__logo"
+            src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png" alt="tinder logo"/>
+            <ForumIcon className="header__icon" fontSize="large"/>
            
         </div>
     )
